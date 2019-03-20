@@ -1,0 +1,19 @@
+baseURL = "http://192.168.1.100:10001/code/doc"
+name = "Hugo Theme Bootie Docs"
+
+hasCJKLanguage             = true
+summaryLength              = 50
+
+theme = "bootie"
+themesDir = "./hugo/themes"
+contentDir = "../contents"
+publishDir = "./dist/public/doc"
+resourcesDir = "./dist/public/doc/resources"
+
+[params]
+  highlightStyle = "github"
+
+[[menu.main]]
+  name   = "Api Mannual"
+  url    = "index_code.html"
+  weight = 10
